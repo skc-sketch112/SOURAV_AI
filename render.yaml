@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sourav_md_bot
+    env: node
+    buildCommand: "npm install"
+    startCommand: "pm2-runtime ecosystem.config.js"
+    envVars:
+      - key: DEBUG_MODE
+        value: "true"
+      - key: PLUGIN_REPO
+        value: "https://github.com/yourname/private-plugins.git"
+      - key: GITHUB_TOKEN
+        sync: false
