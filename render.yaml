@@ -12,4 +12,4 @@ services:
         value: "https://github.com/yourname/private-plugins.git"
       - key: GITHUB_TOKEN
         value: "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"
-        sync: false
+        
