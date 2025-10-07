@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "SOURAV_MD_BOT",
-      script: "index.js",
+      script: "server.js",
       watch: true,              // watches for local file changes for hot reload
       ignore_watch: ["node_modules", "remote_plugins"], // don’t watch huge directories
       env: {
